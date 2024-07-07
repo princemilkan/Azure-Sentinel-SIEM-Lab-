@@ -14,24 +14,35 @@ Analysing alerts<br/>
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-Created Domain Controler as DC with windows 19 Server ISO and Clinet PC with Windows 10 ISO in Virtual Box : <br/>
-<img src="https://i.imgur.com/vSeAAEU.png" height="80%" width="80%" alt="VB"/>
+Virtual Box: Created two VM for thhis lab. Ubuntu 22.04 to set up Wazuh Manager and windows 10 client for Wazuh agent  <br/>
+<img src="https://i.imgur.com/EnWObn4.png" height="80%" width="80%" alt="VB"/>
 <br />
 <br />
-2 Network Adapters (One for Internet another one is for internal connection)  <br/>
-<img src="https://i.imgur.com/2GCtAhm.png" height="80%" width="80%" alt="AD lab"/>
+Instaling Wazuh manager on Ubuntu:
+Specifications
+RAM: 8GB+
+HDD: 50GB+
+OS: Ubuntu 22.04 LTS
+
+Install Wazuh 4.7 with curl command as below.
+curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+
+Extract Wazuh Credentials
+sudo tar -xvf wazuh-install-files.tar<br/>
+
+<img src="https://i.imgur.com/VphMzTj.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
-Created Domain Controlar as DC and DNS <br/>
-<img src="https://i.imgur.com/MY03Kft.png" height="80%" width="80%" alt="AD lab"/>
+Setting up Static IP for Wazuh server <br/>
+<img src="https://i.imgur.com/49t7zpL.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
-Craeted and configured  DHCP for mydomain.com<br/>
-<img src="https://i.imgur.com/B3u5hEU.png" height="80%" width="80%" alt="AD lab"/>
+Configuring the filebeat.yml file<br/>
+<img src="https://i.imgur.com/rc8ypnr.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
-Created Scope for other clinets and later connected by client 1<br/>
-<img src="https://i.imgur.com/5dux4bz.png" height="80%" width="80%" alt="AD lab"/>
+Configuring the ossec.conf file for wazuh manager <br/>
+<img src="https://i.imgur.com/rc8ypnr.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
 Created Organizational Unit _ADMINS and _USERS <br/>
