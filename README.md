@@ -45,36 +45,36 @@ Configuring the ossec.conf file for wazuh manager <br/>
 <img src="https://i.imgur.com/rc8ypnr.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
-Created Organizational Unit _ADMINS and _USERS <br/>
-<img src="https://i.imgur.com/0oJQG3I.png" height="80%" width="80%" alt="AD lab"/>
+Restarting Wazuh Manager <br/>
+<img src="https://i.imgur.com/fQ87KfU.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
-Created Admin account as a-mmilkan for Mahmudul Milkan <br/>
-<img src="https://i.imgur.com/Yj3hcjv.png" height="80%" width="80%" alt="AD lab"/>
+Installing Sysmon on windows 10 client  <br/>
+<img src="https://i.imgur.com/vmdw5v5.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
-Created 1000+ users using Powershell script <br/>
-<img src="https://i.imgur.com/YXFUYd3.png" height="80%" width="80%" alt="AD lab"/>
+ossec.conf file for wazuh agent <br/>
+<img src="https://i.imgur.com/POip8N1.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
-List of users created <br/>
-<img src="https://i.imgur.com/FsvrWdo.png" height="80%" width="80%" alt="AD lab"/>
+Collected Sysmon file name for ossec.cof file to add into <br/>
+<img src="https://i.imgur.com/LsoAYXj.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
-Signing in using one of users from clinet 1 PC  <br/>
-<img src="https://i.imgur.com/pKB4Cml.png" height="80%" width="80%" alt="AD lab"/>
+Adding rules inside ossec.conf file. Deleted the highlighted part  <br/>
+<img src="https://i.imgur.com/9qjhCOd.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
-Changed PC name to CLIENT1 and Assigned it to mydomain.com by using admin accounct  <br/>
-<img src="https://i.imgur.com/wwhvBP1.png" height="80%" width="80%" alt="AD lab"/>
+Wazuh is up and running on ubuntu VM and windows 10 client has been added as Wazuh agent  <br/>
+<img src="https://i.imgur.com/UzTe3Kb.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
-Netword adapter details of clinet1 <br/>
-<img src="https://i.imgur.com/5nx2nK7.png" height="80%" width="80%" alt="AD lab"/>
+Created new index inside Wazuh dashboard <br/>
+<img src="https://i.imgur.com/yg9CugT.png" height="80%" width="80%" alt="AD lab"/>
 <br />
 <br />
-Pinging from clinet1 pc  <br/>
-<img src="https://i.imgur.com/Bjy6as3.png" height="80%" width="80%" alt="AD lab"/>
+Getting alerts from windows 10 client machine <br/>
+<img src="https://i.imgur.com/JJqSeS7.png" height="80%" width="80%" alt="AD lab"/>
 </p>
 
 <!--
